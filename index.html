@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Areas</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <script src="operaciones.js"> </script>
+  </head>
+  <body>
+      <header>
+        <h1>Areas de figuras geométricas</h1>
+      </header>
+
+      <section>
+
+        <div id="datos">
+
+        <p>
+          <label for="base">¿Cuánto mide su base?</label><br>
+          <input type="number" class="numero" name="base" id="base" size="5" maxlength="3" placeholder="Base de la figura" onchange="calcularArea()" onchange="calcularAreaT" > <br>
+        </p>
+        <p>
+          <label for="altura">¿Cuál es su altura?</label><br>
+          <input type="number" class="numero" name="altura" id="altura" size="5" maxlength="3" placeholder="Altura de la figura" onchange="calcularArea()" onchange="calcularAreaT" ><br>
+        </p>
+        <p>
+          <label for="tipo">¿Qué figura quieres calcular?</label><br>
+        <button onclick="calcularAreaT()">Triangulo</button>
+        <button onclick="calcularArea()" >Rectangulo</button>
+        </p>
+        </div>
+
+        <div id="resultado">
+        <p>
+          <label for="area">Resultado</label><br>
+          <input type="text" class="numero" name="area" id="area" size="7"><br>
+        </p>
+        </div>
+        <div id="botones">
+
+          <input type="reset" name="limpiar" id="limpiar" value="Limpiar" onclick="limpiaValores()">
+
+        </div>
+
+      </section>
+      <footer>
+        <p>Actividad realizada por: Leonardo Daniel Cruz Rosas 405-INFO</p>
+    </footer>
+
+  </body>
+</html>

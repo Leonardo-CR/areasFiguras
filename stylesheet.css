@@ -1,0 +1,31 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+font: bold;
+}
+header{
+  background-color: #000000;
+  color: #ffffff;
+  font: bold;
+  font: 5 em;
+  margin: 30 px;
+}
+section{
+background-image: url(https://i.pinimg.com/originals/2f/5e/55/2f5e550391f9a4f88fcee787e3fccf71.png);
+  color: #000000;
+  font: 3em;
+
+}
+footer{
+  background-color: #000000;
+  color: white;
+}
+button{
+  text-align: center;
+  background-color: #f16d34;
+
+}
+input{
+  text-align: center;
+  background-color: ;
+}
